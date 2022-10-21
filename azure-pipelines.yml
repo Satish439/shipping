@@ -11,13 +11,12 @@ resources:
 variables:
   tag: '$(Build.BuildId)'
 
-stages:
   steps:
 
    - task: CmdLine@2
      inputs:
        script: 'docker build .'
-       
+
 # - stage: Build
 #   displayName: Build image
 #   jobs:
