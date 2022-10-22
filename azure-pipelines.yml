@@ -5,6 +5,8 @@
 trigger:
 - main
 
+pool: Docker
+
 resources:
 - repo: self
 
